@@ -17,20 +17,15 @@
             text-align: center;
             font-family: 'Spoqa Han Sans Neo', 'sans-serif';
         }
-        .container {
-            position: absolute;
-            top: 20vh; /* Adjust this value to move it up/down */
-            left: 50%;
-            transform: translateX(-50%);
-            background-color: rgba(255, 255, 255, 0.8);
-            padding: 2rem;
-            border-radius: 15px;
-            width: fit-content; /* Make container width fit its content */
-            box-sizing: border-box; /* Include padding in width */
-        }
         h1 {
             color: #333;
             font-size: 3rem;
+        }
+        .main-title {
+            color: white; /* Or a color that stands out on the background */
+            font-size: 3rem;
+            margin-top: 100px; /* Adjust this value to position below header */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for readability */
         }
         header {
             position: absolute;
@@ -74,9 +69,7 @@
             </ul>
         </nav>
     </header>
-    <div class="container">
-        <h1>Welcome to Rojaeria!</h1>
-    </div>
+    <h1 class="main-title">Welcome to Rojaeria!</h1>
     <footer>
         <p>&copy; 2025 Rojaeria. All rights reserved. since 2024.10.01</p>
     </footer>
